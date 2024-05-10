@@ -16,3 +16,4 @@ shapely
 scikit-learn
 tzdata
 zipp
+jupyter
