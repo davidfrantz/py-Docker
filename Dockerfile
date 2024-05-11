@@ -16,6 +16,8 @@ EXPOSE 80
 # Define environment variable
 ENV NAME World
 
+# Run Jupyter Notebook when the container launches
+CMD [“jupyter”, “notebook”, “ — ip=’0.0.0.0'”, “ — port=8888”, “ — no-browser”, “ — allow-root”]
 # Run app.py when the container launches
 #CMD ["python", "app.py"]
 
